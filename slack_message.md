@@ -12,6 +12,7 @@ I dived into the questions you had regarding the data consumption and retention.
 You can see the distribution of the daily data usage accross all subscriptions below. I distinghuised between subscription that end after just one period and subscriptions that span multiple periods, because subscriptions length has a large effect on the data usage.
 
 ![](histogram_data_consumption.png)
+
 *This chart shows how much data a subscription uses on average per day. The bars show how many subscriptions fall into each usage range, while the lines mark the average (mean) and the midpoint (medium) of all subscriptions.*
 
 If we look at the data usage at different plan data allowances we see what we would expect: higher allowance leads to higher usage. And again, we see lot of subscriptions that do not use any data.
@@ -31,9 +32,12 @@ Please note that because subscriptions vary in length and usage is typically hig
 I compared user retention across the three projects and found that the difference in retention patterns is statistical significant. Some projects really do retain users better or worse than others, not just by chance. This means there might be meaningful  behavioral differences between the projects that we can act on.
 
 ![](retention_curves.png)
+
 *Each line shows the probability that a user from each project remains active over time. When a line drops, users are churning. The project whose line stays higher retains users better.*
 
 ### Further investigation
     
 - What is the correct definition of churn?
 - What makes the retention curves different?
+
+Let me know if you have any questions!
